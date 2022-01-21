@@ -17,21 +17,15 @@ kidney-annotations.owl: kidney-ont.owl kidney-seed.txt
 	$(ROBOT) filter --input kidney-ont.owl --term-file kidney-seed.txt --select "self annotations" --output $@
 
 uberon-base.owl:
-	wget -O $@ https://raw.githubusercontent.com/obophenotype/uberon/master/uberon-base.owl
+	wget -O $@ http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 
 cl-base.owl:
-	wget -O $@ https://raw.githubusercontent.com/obophenotype/cell-ontology/master/cl-base.owl
+	wget -O $@ http://purl.obolibrary.org/obo/cl/cl-base.owl
 
 merged_imports.owl: uberon-base.owl cl-base.owl
-	$(ROBOT) merge -i uberon-base.owl -i cl-base.owl -o $@ \
-					 remove --term BFO:0000050 --select complement --select object-properties --trim true --output $@ 
+	$(ROBOT) merge -i uberon-base.owl -i cl-base.owl -o $@
 
-materialize.ttl: merged_imports.owl
-	$(ROBOT) materialize --reasoner ELK --input $< --term BFO:0000050 --output $@
-
-.PHONY: materialize.ttl
-
-materialize-direct.nt: materialize.ttl
+materialize-direct.nt: merged_imports.owl
 	$(RG) --ontology-file $< --output-subclasses true --output-file $@
 
 .PHONY: materialize-direct.nt
@@ -40,14 +34,12 @@ term.facts: kidney-seed.txt
 	cp $< $@.tmp.facts
 	sed -e 's/^/</' -e 's/\r/>/' <$@.tmp.facts >$@ && rm $@.tmp.facts
 
-.PHONY: term.facts 
-
 rdf.facts: materialize-direct.nt
 	sed 's/ /\t/' <$< | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 .PHONY: rdf.facts
 
-ontrdf.facts: materialize.ttl
+ontrdf.facts: merged_imports.owl
 	riot --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 .PHONY: ontrdf.facts
@@ -60,7 +52,9 @@ complete-transitive.ofn: term.facts rdf.facts ontrdf.facts convert.dl
 
 extended.owl: complete-transitive.ofn kidney-annotations.owl
 	$(ROBOT) merge --input kidney-annotations.owl --input complete-transitive.ofn \
-					 reduce --reasoner ELK --output $@ 
+					 remove --term BFO:0000050 --select complement --select object-properties --trim true -o $@
+
+.PHONY: extended.owl
 
 kidney-extended.png: extended.owl ubergraph-style.json
 	$(ROBOT) convert --input $< --output $<.json
