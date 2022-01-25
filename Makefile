@@ -11,7 +11,7 @@ kidney-ont.owl:
 
 kidney-seed.txt: kidney-ont.owl
 	$(ROBOT) query --input $< --query seed_class.sparql $@.tmp.txt
-	cat $(SCATLAS_KEEPRELATIONS) $@.tmp.txt | sed '/term/d' >$@ && rm $@.tmp.txt
+	cat $@.tmp.txt $(SCATLAS_KEEPRELATIONS) | sed '/term/d' >$@ && rm $@.tmp.txt
 
 kidney-annotations.owl: kidney-ont.owl kidney-seed.txt
 	$(ROBOT) filter --input kidney-ont.owl --term-file kidney-seed.txt --select "self annotations" --output $@
@@ -26,7 +26,7 @@ merged_imports.owl: uberon-base.owl cl-base.owl
 	$(ROBOT) merge -i uberon-base.owl -i cl-base.owl -o $@
 
 materialize-direct.nt: merged_imports.owl
-	$(RG) --ontology-file $< --output-subclasses true --output-file $@
+	$(RG) --ontology-file $< --property 'http://purl.obolibrary.org/obo/BFO_0000050' --output-subclasses true --output-file $@
 
 .PHONY: materialize-direct.nt
 
