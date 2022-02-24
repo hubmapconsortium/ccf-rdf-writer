@@ -26,7 +26,7 @@ merged_imports.owl: uberon-base.owl cl-base.owl
 	$(ROBOT) merge -i uberon-base.owl -i cl-base.owl -o $@
 
 materialize-direct.nt: merged_imports.owl
-	$(RG) --ontology-file $< --property 'http://purl.obolibrary.org/obo/BFO_0000050' --output-subclasses true --output-file $@
+	$(RG) --ontology-file $< --property 'http://purl.obolibrary.org/obo/BFO_0000050' --output-file $@
 
 .PHONY: materialize-direct.nt
 
@@ -52,7 +52,7 @@ complete-transitive.ofn: term.facts rdf.facts ontrdf.facts convert.dl
 
 extended.owl: complete-transitive.ofn kidney-annotations.owl
 	$(ROBOT) merge --input kidney-annotations.owl --input complete-transitive.ofn \
-					 remove --term BFO:0000050 --select complement --select object-properties --trim true -o $@
+					 remove --term $(SCATLAS_KEEPRELATIONS) --select complement --select object-properties --trim true -o $@
 
 .PHONY: extended.owl
 
@@ -60,5 +60,6 @@ kidney-extended.png: extended.owl ubergraph-style.json
 	$(ROBOT) convert --input $< --output $<.json
 	og2dot.js -s ubergraph-style.json $<.json > $<.dot 
 	dot $<.dot -Tpng -Grankdir=LR > $@
+	dot $<.dot -Tpdf -Grankdir=LR > $@.pdf
 
 .PHONY: kidney-extended.png
