@@ -1,1 +1,1 @@
-BFO:0000050
+http://purl.obolibrary.org/obo/BFO_0000050
