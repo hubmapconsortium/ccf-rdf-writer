@@ -5,16 +5,19 @@ RG=$(RG_ENV) relation-graph
 
 SCATLAS_KEEPRELATIONS = relations.txt
 
-kidney-ont.owl:
-	echo 'Pulling Kidney ontology to take its terms'
-	wget -O $@ https://raw.githubusercontent.com/hubmapconsortium/ccf-validation-tools/master/owl/ccf_Kidney_classes.owl
+ORGAN = kidney
+ORGAN_ONTOLOGY = master/owl/ccf_Kidney_classes.owl
 
-kidney-seed.txt: kidney-ont.owl
+organ-ont.owl:
+	echo 'Pulling Organ specific ontology to take its terms'
+	wget -O $@ https://raw.githubusercontent.com/hubmapconsortium/ccf-validation-tools/$(ORGAN_ONTOLOGY)
+
+organ-seed.txt: organ-ont.owl
 	$(ROBOT) query --input $< --query seed_class.sparql $@.tmp.txt
 	cat $@.tmp.txt $(SCATLAS_KEEPRELATIONS) | sed '/term/d' >$@ && rm $@.tmp.txt
 
-kidney-annotations.owl: kidney-ont.owl kidney-seed.txt
-	$(ROBOT) filter --input kidney-ont.owl --term-file kidney-seed.txt --select "self annotations" --output $@
+organ-annotations.owl: organ-ont.owl organ-seed.txt
+	$(ROBOT) filter --input organ-ont.owl --term-file organ-seed.txt --select "self annotations" --output $@
 
 uberon-base.owl:
 	wget -O $@ http://purl.obolibrary.org/obo/uberon/uberon-base.owl
@@ -30,7 +33,7 @@ materialize-direct.nt: merged_imports.owl
 
 .PHONY: materialize-direct.nt
 
-term.facts: kidney-seed.txt
+term.facts: organ-seed.txt
 	cp $< $@.tmp.facts
 	sed -e 's/^/</' -e 's/\r/>/' <$@.tmp.facts >$@ && rm $@.tmp.facts
 
@@ -46,20 +49,20 @@ ontrdf.facts: merged_imports.owl
 
 complete-transitive.ofn: term.facts rdf.facts ontrdf.facts convert.dl
 	souffle -c convert.dl
-	sed -e '1s/^/Ontology(<http:\/\/purl.obolibrary.org\/obo\/kidney-extended.owl>\n/' -e '$$s/$$/)/' <ofn.csv >$@ && rm ofn.csv
+	sed -e '1s/^/Ontology(<http:\/\/purl.obolibrary.org\/obo\/$(ORGAN)-extended.owl>\n/' -e '$$s/$$/)/' <ofn.csv >$@ && rm ofn.csv
 
 .PHONY: complete-transitive.ofn
 
-extended.owl: complete-transitive.ofn kidney-annotations.owl
-	$(ROBOT) merge --input kidney-annotations.owl --input complete-transitive.ofn \
+organ-extended.owl: complete-transitive.ofn organ-annotations.owl
+	$(ROBOT) merge --input organ-annotations.owl --input complete-transitive.ofn \
 					 remove --term $(SCATLAS_KEEPRELATIONS) --select complement --select object-properties --trim true -o $@
 
-.PHONY: extended.owl
+.PHONY: organ-extended.owl
 
-kidney-extended.png: extended.owl ubergraph-style.json
+organ-extended.png: organ-extended.owl ubergraph-style.json
 	$(ROBOT) convert --input $< --output $<.json
 	og2dot.js -s ubergraph-style.json $<.json > $<.dot 
 	dot $<.dot -Tpng -Grankdir=LR > $@
 	dot $<.dot -Tpdf -Grankdir=LR > $@.pdf
 
-.PHONY: kidney-extended.png
+.PHONY: organ-extended.png
