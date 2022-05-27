@@ -5,8 +5,8 @@ RG=$(RG_ENV) relation-graph
 
 SCATLAS_KEEPRELATIONS = relations.txt
 
-ORGAN = kidney
-ORGAN_ONTOLOGY = master/owl/ccf_Kidney_classes.owl
+ORGAN = lung
+ORGAN_ONTOLOGY = master/owl/ccf_Lung_classes.owl
 
 organ-ont.owl:
 	echo 'Pulling Organ specific ontology to take its terms'
@@ -25,17 +25,23 @@ uberon-base.owl:
 cl-base.owl:
 	wget -O $@ http://purl.obolibrary.org/obo/cl/cl-base.owl
 
-merged_imports.owl: uberon-base.owl cl-base.owl
-	$(ROBOT) merge -i uberon-base.owl -i cl-base.owl -o $@
+ro.owl: $(SCATLAS_KEEPRELATIONS)
+	wget -O $@.tmp.owl http://purl.obolibrary.org/obo/ro/ro.owl
+	$(ROBOT) reason -i $@.tmp.owl --reasoner ELK \
+	 extract -T $< --force true --copy-ontology-annotations true --individuals include --method BOT \
+	 --output $@_import.tmp.owl && mv $@_import.tmp.owl $@ && rm $@.tmp.owl
 
-materialize-direct.nt: merged_imports.owl
-	$(RG) --ontology-file $< --property 'http://purl.obolibrary.org/obo/BFO_0000050' --output-file $@
+merged_imports.owl: uberon-base.owl cl-base.owl ro.owl
+	$(ROBOT) merge -i uberon-base.owl -i cl-base.owl -i ro.owl -o $@
 
-.PHONY: materialize-direct.nt
+materialize-direct.nt: merged_imports.owl $(SCATLAS_KEEPRELATIONS)
+	$(RG) --ontology-file $< --properties-file $(SCATLAS_KEEPRELATIONS) --output-file $@
 
 term.facts: organ-seed.txt
 	cp $< $@.tmp.facts
-	sed -e 's/^/</' -e 's/\r/>/' <$@.tmp.facts >$@ && rm $@.tmp.facts
+	sed -e 's/^/</' -e 's/$\\r/>/' -e 's/$$/>/' -e 's/>>/>/' <$@.tmp.facts >$@ && rm $@.tmp.facts
+
+.PHONY: term.facts
 
 rdf.facts: materialize-direct.nt
 	sed 's/ /\t/' <$< | sed 's/ /\t/' | sed 's/ \.$$//' >$@
@@ -47,8 +53,13 @@ ontrdf.facts: merged_imports.owl
 
 .PHONY: ontrdf.facts
 
-complete-transitive.ofn: term.facts rdf.facts ontrdf.facts convert.dl
-	souffle -c convert.dl
+nonredundant.facts ccf-extended.nt: term.facts rdf.facts ontrdf.facts prune.dl
+	souffle -c prune.dl
+	cp nonredundant.csv nonredundant.facts
+	mv nonredundant.csv ccf-extended.nt
+
+complete-transitive.ofn: term.facts nonredundant.facts ontrdf.facts convert_owl.dl
+	souffle -c convert_owl.dl
 	sed -e '1s/^/Ontology(<http:\/\/purl.obolibrary.org\/obo\/$(ORGAN)-extended.owl>\n/' -e '$$s/$$/)/' <ofn.csv >$@ && rm ofn.csv
 
 .PHONY: complete-transitive.ofn
