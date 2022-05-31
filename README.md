@@ -1,8 +1,10 @@
 # CCF RDF Writer
 
-From a set of terms, generate a graph and a RDF file (nt) with all inferred `part of` relationships.   
+From a set of terms, generate a graph and a RDF file (nt) with all inferred `part of` relationships.
 
 ## Running using Docker
+
+First, please create folder called `tmp` to include the temporary files generated during the pipeline.
 
 To generalise this pipeline make sure you pass values to the two parameters `ORGAN` and `ORGAN_ONTOLOGY`. 
 Also call goal using same value passed to `ORGAN`, e.g., `make graph/lung-extended.png` or `make graph/kidney-extended.png`
