@@ -10,4 +10,4 @@
 #
 # See README-editors.md for more details.
 
-docker run -m 12g  -v $PWD:/work -w /work --rm -ti monarchinitiative/ubergraph "$@"
+docker run -m 12g  -v $PWD:/work -w /work --rm -ti obolibrary/odkfull "$@"
