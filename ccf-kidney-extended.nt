@@ -1,12 +1,14 @@
 <http://purl.obolibrary.org/obo/UBERON_0002015>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney capsule"	.
-<http://purl.obolibrary.org/obo/UBERON_0003918>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney mesenchyme"	.
 <http://purl.obolibrary.org/obo/UBERON_0002335>	<http://www.w3.org/2000/01/rdf-schema#label>	"macula densa"	.
-<http://purl.obolibrary.org/obo/UBERON_0002335>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0002335>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
+<http://purl.obolibrary.org/obo/UBERON_0002335>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002303>	.
+<http://purl.obolibrary.org/obo/UBERON_0004726>	<http://www.w3.org/2000/01/rdf-schema#label>	"vasa recta"	.
+<http://purl.obolibrary.org/obo/UBERON_0003527>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney capillary"	.
+<http://purl.obolibrary.org/obo/UBERON_0003527>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
 <http://purl.obolibrary.org/obo/UBERON_0001225>	<http://www.w3.org/2000/01/rdf-schema#label>	"cortex of kidney"	.
 <http://purl.obolibrary.org/obo/UBERON_0001225>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
+<http://purl.obolibrary.org/obo/CL_4030009>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0002306>	.
 <http://purl.obolibrary.org/obo/CL_4030009>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell of proximal tubule segment 1"	.
-<http://purl.obolibrary.org/obo/CL_4030009>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004134>	.
 <http://purl.obolibrary.org/obo/CL_1000717>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney outer medulla collecting duct intercalated cell"	.
 <http://purl.obolibrary.org/obo/CL_1000717>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004204>	.
 <http://purl.obolibrary.org/obo/CL_1000717>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
@@ -16,11 +18,13 @@
 <http://purl.obolibrary.org/obo/CL_1001111>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/CL_1001111>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005096>	.
 <http://purl.obolibrary.org/obo/UBERON_0009091>	<http://www.w3.org/2000/01/rdf-schema#label>	"vasa recta ascending limb"	.
+<http://purl.obolibrary.org/obo/UBERON_0009091>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004726>	.
+<http://purl.obolibrary.org/obo/UBERON_0009091>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/UBERON_0004203>	<http://www.w3.org/2000/01/rdf-schema#label>	"cortical collecting duct"	.
 <http://purl.obolibrary.org/obo/UBERON_0004203>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0004203>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
+<http://purl.obolibrary.org/obo/UBERON_0002189>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0002189>	<http://www.w3.org/2000/01/rdf-schema#label>	"outer cortex of kidney"	.
-<http://purl.obolibrary.org/obo/UBERON_0002189>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
 <http://purl.obolibrary.org/obo/UBERON_0002113>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney"	.
 <http://purl.obolibrary.org/obo/UBERON_0005215>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney interstitium"	.
 <http://purl.obolibrary.org/obo/UBERON_0005215>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
@@ -30,27 +34,27 @@
 <http://purl.obolibrary.org/obo/CL_4030015>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
 <http://purl.obolibrary.org/obo/CL_1000692>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney interstitial fibroblast"	.
 <http://purl.obolibrary.org/obo/CL_1000692>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
+<http://purl.obolibrary.org/obo/CL_4030013>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_1001111>	.
 <http://purl.obolibrary.org/obo/CL_4030013>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney loop of Henle long descending thin limb outer medulla epithelial cell"	.
-<http://purl.obolibrary.org/obo/CL_4030013>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
-<http://purl.obolibrary.org/obo/CL_4030013>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005096>	.
 <http://purl.obolibrary.org/obo/UBERON_0004190>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal glomerulus vasculature"	.
 <http://purl.obolibrary.org/obo/UBERON_0004190>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001229>	.
 <http://purl.obolibrary.org/obo/CL_0000623>	<http://www.w3.org/2000/01/rdf-schema#label>	"natural killer cell"	.
-<http://purl.obolibrary.org/obo/CL_1000698>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney resident macrophage"	.
-<http://purl.obolibrary.org/obo/CL_1000698>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
 <http://purl.obolibrary.org/obo/CL_1001108>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney loop of Henle medullary thick ascending limb epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1001108>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/CL_1001108>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004201>	.
 <http://purl.obolibrary.org/obo/CL_1001108>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001291>	.
 <http://purl.obolibrary.org/obo/CL_1001108>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004202>	.
 <http://purl.obolibrary.org/obo/CL_0000648>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney granular cell"	.
-<http://purl.obolibrary.org/obo/CL_0000648>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
+<http://purl.obolibrary.org/obo/CL_0000648>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002303>	.
 <http://purl.obolibrary.org/obo/CL_1000849>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney distal convoluted tubule epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1000849>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001292>	.
+<http://purl.obolibrary.org/obo/UBERON_0001473>	<http://www.w3.org/2000/01/rdf-schema#label>	"lymphatic vessel"	.
 <http://purl.obolibrary.org/obo/UBERON_0001229>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal corpuscle"	.
 <http://purl.obolibrary.org/obo/UBERON_0001229>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0001229>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001285>	.
 <http://purl.obolibrary.org/obo/UBERON_0009202>	<http://www.w3.org/2000/01/rdf-schema#label>	"vasa recta descending limb"	.
+<http://purl.obolibrary.org/obo/UBERON_0009202>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004726>	.
+<http://purl.obolibrary.org/obo/UBERON_0009202>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/CL_1000454>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney collecting duct epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1000454>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
 <http://purl.obolibrary.org/obo/CL_1000715>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney cortex collecting duct intercalated cell"	.
@@ -61,40 +65,53 @@
 <http://purl.obolibrary.org/obo/UBERON_0001292>	<http://www.w3.org/2000/01/rdf-schema#label>	"distal convoluted tubule"	.
 <http://purl.obolibrary.org/obo/UBERON_0001292>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0001292>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
+<http://purl.obolibrary.org/obo/CL_4030014>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_1001111>	.
 <http://purl.obolibrary.org/obo/CL_4030014>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney loop of Henle long descending thin limb inner medulla epithelial cell"	.
-<http://purl.obolibrary.org/obo/CL_4030014>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
-<http://purl.obolibrary.org/obo/CL_4030014>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005096>	.
 <http://purl.obolibrary.org/obo/CL_1001096>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney afferent arteriole endothelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1001096>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004639>	.
+<http://purl.obolibrary.org/obo/CL_1001096>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
 <http://purl.obolibrary.org/obo/CL_1001096>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
+<http://purl.obolibrary.org/obo/CL_1001096>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/CL_1001096>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
 <http://purl.obolibrary.org/obo/UBERON_0004197>	<http://www.w3.org/2000/01/rdf-schema#label>	"proximal convoluted tubule segment 2"	.
 <http://purl.obolibrary.org/obo/UBERON_0004197>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004134>	.
 <http://purl.obolibrary.org/obo/UBERON_0004201>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney outer medulla inner stripe"	.
 <http://purl.obolibrary.org/obo/UBERON_0004201>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
+<http://purl.obolibrary.org/obo/UBERON_0003517>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney blood vessel"	.
+<http://purl.obolibrary.org/obo/UBERON_0003517>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
 <http://purl.obolibrary.org/obo/CL_1000452>	<http://www.w3.org/2000/01/rdf-schema#label>	"parietal epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1000452>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005750>	.
-<http://purl.obolibrary.org/obo/CL_1000452>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004188>	.
+<http://purl.obolibrary.org/obo/CL_4030022>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal medullary fibroblast"	.
+<http://purl.obolibrary.org/obo/CL_4030022>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
+<http://purl.obolibrary.org/obo/CL_4030022>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/UBERON_0004100>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal collecting system"	.
 <http://purl.obolibrary.org/obo/UBERON_0004100>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
 <http://purl.obolibrary.org/obo/CL_1001131>	<http://www.w3.org/2000/01/rdf-schema#label>	"vasa recta ascending limb cell"	.
+<http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003527>	.
 <http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0009091>	.
-<http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
+<http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
 <http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/CL_1001131>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
+<http://purl.obolibrary.org/obo/UBERON_0001916>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
+<http://purl.obolibrary.org/obo/UBERON_0001916>	<http://www.w3.org/2000/01/rdf-schema#label>	"endothelium of arteriole"	.
+<http://purl.obolibrary.org/obo/UBERON_0001916>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
+<http://purl.obolibrary.org/obo/CL_4030011>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0002306>	.
 <http://purl.obolibrary.org/obo/CL_4030011>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell of proximal tubule segment 3"	.
-<http://purl.obolibrary.org/obo/CL_4030011>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004134>	.
 <http://purl.obolibrary.org/obo/UBERON_0004294>	<http://www.w3.org/2000/01/rdf-schema#label>	"glomerular capillary endothelium"	.
+<http://purl.obolibrary.org/obo/UBERON_0004294>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003527>	.
 <http://purl.obolibrary.org/obo/UBERON_0004294>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004190>	.
-<http://purl.obolibrary.org/obo/UBERON_0004294>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
+<http://purl.obolibrary.org/obo/UBERON_0004294>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
+<http://purl.obolibrary.org/obo/UBERON_0004294>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/CL_1001099>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney efferent arteriole endothelial cell"	.
+<http://purl.obolibrary.org/obo/CL_1001099>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
 <http://purl.obolibrary.org/obo/CL_1001099>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004640>	.
 <http://purl.obolibrary.org/obo/CL_1001099>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
+<http://purl.obolibrary.org/obo/CL_1001099>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/CL_1001099>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
 <http://purl.obolibrary.org/obo/UBERON_0006852>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete glomerular visceral epithelium"	.
+<http://purl.obolibrary.org/obo/UBERON_0005750>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0004188>	.
 <http://purl.obolibrary.org/obo/UBERON_0005750>	<http://www.w3.org/2000/01/rdf-schema#label>	"glomerular parietal epithelium"	.
-<http://purl.obolibrary.org/obo/UBERON_0005750>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001229>	.
 <http://purl.obolibrary.org/obo/UBERON_0001289>	<http://www.w3.org/2000/01/rdf-schema#label>	"descending limb of loop of Henle"	.
 <http://purl.obolibrary.org/obo/UBERON_0001289>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
 <http://purl.obolibrary.org/obo/CL_0002306>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell of proximal tubule"	.
@@ -116,10 +133,15 @@
 <http://purl.obolibrary.org/obo/UBERON_0004200>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney pyramid"	.
 <http://purl.obolibrary.org/obo/UBERON_0004200>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/CL_0000576>	<http://www.w3.org/2000/01/rdf-schema#label>	"monocyte"	.
+<http://purl.obolibrary.org/obo/CL_4030019>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_1000768>	.
+<http://purl.obolibrary.org/obo/CL_4030019>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney connecting tubule intercalated cell"	.
 <http://purl.obolibrary.org/obo/UBERON_0001290>	<http://www.w3.org/2000/01/rdf-schema#label>	"proximal straight tubule"	.
 <http://purl.obolibrary.org/obo/UBERON_0001290>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001289>	.
 <http://purl.obolibrary.org/obo/UBERON_0001290>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004134>	.
 <http://purl.obolibrary.org/obo/UBERON_0001290>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004202>	.
+<http://purl.obolibrary.org/obo/CL_4030021>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney connecting tubule beta-intercalated cell"	.
+<http://purl.obolibrary.org/obo/CL_4030021>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
+<http://purl.obolibrary.org/obo/CL_4030021>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005097>	.
 <http://purl.obolibrary.org/obo/UBERON_0002319>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesangium"	.
 <http://purl.obolibrary.org/obo/UBERON_0002319>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
 <http://purl.obolibrary.org/obo/UBERON_0002319>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001229>	.
@@ -132,8 +154,8 @@
 <http://purl.obolibrary.org/obo/CL_1001106>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001291>	.
 <http://purl.obolibrary.org/obo/UBERON_0001284>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal column"	.
 <http://purl.obolibrary.org/obo/UBERON_0001284>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
+<http://purl.obolibrary.org/obo/CL_4030010>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0002306>	.
 <http://purl.obolibrary.org/obo/CL_4030010>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell of proximal tubule segment 2"	.
-<http://purl.obolibrary.org/obo/CL_4030010>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004134>	.
 <http://purl.obolibrary.org/obo/UBERON_0004134>	<http://www.w3.org/2000/01/rdf-schema#label>	"proximal tubule"	.
 <http://purl.obolibrary.org/obo/UBERON_0004134>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0004134>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
@@ -147,17 +169,23 @@
 <http://purl.obolibrary.org/obo/CL_1000691>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
 <http://purl.obolibrary.org/obo/UBERON_0006544>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney vasculature"	.
 <http://purl.obolibrary.org/obo/UBERON_0006544>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
+<http://purl.obolibrary.org/obo/UBERON_0002042>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
 <http://purl.obolibrary.org/obo/UBERON_0002042>	<http://www.w3.org/2000/01/rdf-schema#label>	"lymphatic vessel endothelium"	.
+<http://purl.obolibrary.org/obo/UBERON_0002042>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001473>	.
 <http://purl.obolibrary.org/obo/UBERON_0002320>	<http://www.w3.org/2000/01/rdf-schema#label>	"glomerular mesangium"	.
 <http://purl.obolibrary.org/obo/UBERON_0002320>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004190>	.
 <http://purl.obolibrary.org/obo/UBERON_0002320>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002319>	.
 <http://purl.obolibrary.org/obo/UBERON_0002320>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
 <http://purl.obolibrary.org/obo/CL_0001056>	<http://www.w3.org/2000/01/rdf-schema#label>	"dendritic cell, human"	.
 <http://purl.obolibrary.org/obo/CL_0000814>	<http://www.w3.org/2000/01/rdf-schema#label>	"mature NK T cell"	.
+<http://purl.obolibrary.org/obo/CL_4030018>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney connecting tubule principal cell"	.
+<http://purl.obolibrary.org/obo/CL_4030018>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005097>	.
 <http://purl.obolibrary.org/obo/CL_1001033>	<http://www.w3.org/2000/01/rdf-schema#label>	"peritubular capillary endothelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1001033>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
+<http://purl.obolibrary.org/obo/CL_1001033>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
 <http://purl.obolibrary.org/obo/CL_1001033>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/CL_1001033>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005272>	.
+<http://purl.obolibrary.org/obo/CL_1001033>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/CL_1001033>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
 <http://purl.obolibrary.org/obo/CL_0000653>	<http://www.w3.org/2000/01/rdf-schema#label>	"podocyte"	.
 <http://purl.obolibrary.org/obo/CL_0000653>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004188>	.
@@ -167,10 +195,11 @@
 <http://purl.obolibrary.org/obo/UBERON_0004205>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001294>	.
 <http://purl.obolibrary.org/obo/UBERON_0000362>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal medulla"	.
 <http://purl.obolibrary.org/obo/UBERON_0000362>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002113>	.
+<http://purl.obolibrary.org/obo/UBERON_0005272>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0003527>	.
 <http://purl.obolibrary.org/obo/UBERON_0005272>	<http://www.w3.org/2000/01/rdf-schema#label>	"peritubular capillary"	.
-<http://purl.obolibrary.org/obo/UBERON_0005272>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
 <http://purl.obolibrary.org/obo/UBERON_0001228>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal papilla"	.
 <http://purl.obolibrary.org/obo/UBERON_0001228>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001294>	.
+<http://purl.obolibrary.org/obo/CL_0000875>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000576>	.
 <http://purl.obolibrary.org/obo/CL_0000875>	<http://www.w3.org/2000/01/rdf-schema#label>	"non-classical monocyte"	.
 <http://purl.obolibrary.org/obo/CL_1000714>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney cortex collecting duct principal cell"	.
 <http://purl.obolibrary.org/obo/CL_1000714>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004203>	.
@@ -178,8 +207,8 @@
 <http://purl.obolibrary.org/obo/UBERON_0001291>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
 <http://purl.obolibrary.org/obo/UBERON_0001294>	<http://www.w3.org/2000/01/rdf-schema#label>	"inner medulla of kidney"	.
 <http://purl.obolibrary.org/obo/UBERON_0001294>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
+<http://purl.obolibrary.org/obo/CL_1001432>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_1000454>	.
 <http://purl.obolibrary.org/obo/CL_1001432>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney collecting duct intercalated cell"	.
-<http://purl.obolibrary.org/obo/CL_1001432>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
 <http://purl.obolibrary.org/obo/CL_1000850>	<http://www.w3.org/2000/01/rdf-schema#label>	"macula densa epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1000850>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002335>	.
 <http://purl.obolibrary.org/obo/CL_0000910>	<http://www.w3.org/2000/01/rdf-schema#label>	"cytotoxic T cell"	.
@@ -195,10 +224,17 @@
 <http://purl.obolibrary.org/obo/UBERON_0001232>	<http://www.w3.org/2000/01/rdf-schema#label>	"collecting duct of renal tubule"	.
 <http://purl.obolibrary.org/obo/UBERON_0001232>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001285>	.
 <http://purl.obolibrary.org/obo/UBERON_0001232>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004100>	.
+<http://purl.obolibrary.org/obo/CL_4030016>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell of early distal convoluted tubule"	.
+<http://purl.obolibrary.org/obo/CL_4030016>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001292>	.
 <http://purl.obolibrary.org/obo/UBERON_0005096>	<http://www.w3.org/2000/01/rdf-schema#label>	"descending thin limb"	.
 <http://purl.obolibrary.org/obo/UBERON_0005096>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001289>	.
+<http://purl.obolibrary.org/obo/CL_1001431>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_1000454>	.
 <http://purl.obolibrary.org/obo/CL_1001431>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney collecting duct principal cell"	.
-<http://purl.obolibrary.org/obo/CL_1001431>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
+<http://purl.obolibrary.org/obo/CL_4030020>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney connecting tubule alpha-intercalated cell"	.
+<http://purl.obolibrary.org/obo/CL_4030020>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
+<http://purl.obolibrary.org/obo/CL_4030020>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005097>	.
+<http://purl.obolibrary.org/obo/CL_1000695>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney interstitial alternatively activated macrophage"	.
+<http://purl.obolibrary.org/obo/CL_1000695>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
 <http://purl.obolibrary.org/obo/CL_0000084>	<http://www.w3.org/2000/01/rdf-schema#label>	"T cell"	.
 <http://purl.obolibrary.org/obo/CL_1001109>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney loop of Henle cortical thick ascending limb epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1001109>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
@@ -207,21 +243,25 @@
 <http://purl.obolibrary.org/obo/CL_1000597>	<http://www.w3.org/2000/01/rdf-schema#label>	"papillary tips cell"	.
 <http://purl.obolibrary.org/obo/CL_1000597>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0009095>	.
 <http://purl.obolibrary.org/obo/UBERON_0012441>	<http://www.w3.org/2000/01/rdf-schema#label>	"endothelium of peritubular capillary"	.
+<http://purl.obolibrary.org/obo/UBERON_0012441>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
 <http://purl.obolibrary.org/obo/UBERON_0012441>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005272>	.
+<http://purl.obolibrary.org/obo/UBERON_0012441>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001981>	.
 <http://purl.obolibrary.org/obo/UBERON_0004202>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney outer medulla outer stripe"	.
 <http://purl.obolibrary.org/obo/UBERON_0004202>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/CL_0000786>	<http://www.w3.org/2000/01/rdf-schema#label>	"plasma cell"	.
 <http://purl.obolibrary.org/obo/CL_1000742>	<http://www.w3.org/2000/01/rdf-schema#label>	"glomerular mesangial cell"	.
 <http://purl.obolibrary.org/obo/CL_1000742>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002320>	.
+<http://purl.obolibrary.org/obo/UBERON_0001981>	<http://www.w3.org/2000/01/rdf-schema#label>	"blood vessel"	.
 <http://purl.obolibrary.org/obo/CL_1000718>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney inner medulla collecting duct principal cell"	.
 <http://purl.obolibrary.org/obo/CL_1000718>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004205>	.
 <http://purl.obolibrary.org/obo/CL_1000718>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001232>	.
 <http://purl.obolibrary.org/obo/CL_0000236>	<http://www.w3.org/2000/01/rdf-schema#label>	"B cell"	.
 <http://purl.obolibrary.org/obo/UBERON_0005097>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal connecting tubule"	.
 <http://purl.obolibrary.org/obo/UBERON_0005097>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
+<http://purl.obolibrary.org/obo/CL_4030017>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell of late distal convoluted tubule"	.
+<http://purl.obolibrary.org/obo/CL_4030017>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001292>	.
+<http://purl.obolibrary.org/obo/CL_4030012>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_1001111>	.
 <http://purl.obolibrary.org/obo/CL_4030012>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney loop of Henle short descending thin limb epithelial cell"	.
-<http://purl.obolibrary.org/obo/CL_4030012>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
-<http://purl.obolibrary.org/obo/CL_4030012>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005096>	.
 <http://purl.obolibrary.org/obo/CL_1001318>	<http://www.w3.org/2000/01/rdf-schema#label>	"renal interstitial pericyte"	.
 <http://purl.obolibrary.org/obo/CL_1001318>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0005215>	.
 <http://purl.obolibrary.org/obo/UBERON_0001986>	<http://www.w3.org/2000/01/rdf-schema#label>	"endothelium"	.
@@ -229,16 +269,20 @@
 <http://purl.obolibrary.org/obo/UBERON_0004193>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001231>	.
 <http://purl.obolibrary.org/obo/UBERON_0004193>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001294>	.
 <http://purl.obolibrary.org/obo/CL_0000115>	<http://www.w3.org/2000/01/rdf-schema#label>	"endothelial cell"	.
+<http://purl.obolibrary.org/obo/UBERON_0002303>	<http://www.w3.org/2000/01/rdf-schema#label>	"juxtaglomerular apparatus"	.
+<http://purl.obolibrary.org/obo/UBERON_0002303>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/UBERON_0005271>	<http://www.w3.org/2000/01/rdf-schema#label>	"juxtamedullary cortex"	.
 <http://purl.obolibrary.org/obo/UBERON_0005271>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/CL_0002138>	<http://www.w3.org/2000/01/rdf-schema#label>	"endothelial cell of lymphatic vessel"	.
+<http://purl.obolibrary.org/obo/CL_0002138>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001473>	.
 <http://purl.obolibrary.org/obo/CL_1001107>	<http://www.w3.org/2000/01/rdf-schema#label>	"kidney loop of Henle thin ascending limb epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_1001107>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/CL_1001107>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0004193>	.
 <http://purl.obolibrary.org/obo/CL_1001285>	<http://www.w3.org/2000/01/rdf-schema#label>	"vasa recta descending limb cell"	.
+<http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003527>	.
 <http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001225>	.
 <http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0009202>	.
-<http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0006544>	.
+<http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003517>	.
 <http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000362>	.
 <http://purl.obolibrary.org/obo/CL_1001285>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001986>	.
 <http://purl.obolibrary.org/obo/BFO_0000050>	<http://www.w3.org/2000/01/rdf-schema#label>	"part of"@en	.
