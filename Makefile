@@ -1,6 +1,6 @@
-ROBOT_ENV=ROBOT_JAVA_ARGS=-Xmx120G
+ROBOT_ENV=ROBOT_JAVA_ARGS=-Xmx30G
 ROBOT=$(ROBOT_ENV) robot
-RG_ENV=JAVA_OPTS=-Xmx120G
+RG_ENV=JAVA_OPTS=-Xmx30G
 RG=$(RG_ENV) relation-graph
 
 SCATLAS_KEEPRELATIONS = relations.txt
@@ -25,10 +25,6 @@ tmp/$(ORGAN)-seed.txt: tmp/$(ORGAN)-ont.owl
 	cat $@.tmp.txt $(SCATLAS_KEEPRELATIONS) | sed '/term/d' >$@ && rm $@.tmp.txt
 .PHONY: tmp/$(ORGAN)-seed.txt
 
-tmp/$(ORGAN)-annotations.owl: tmp/$(ORGAN)-ont.owl tmp/$(ORGAN)-seed.txt
-	$(ROBOT) filter --input $< --term-file tmp/$(ORGAN)-seed.txt --select "self annotations" --output $@
-.PHONY: tmp/$(ORGAN)-annotations.owl
-
 tmp/uberon-base.owl:
 	wget -O $@ http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 
@@ -45,7 +41,11 @@ tmp/merged_imports.owl: tmp/uberon-base.owl tmp/cl-base.owl tmp/ro.owl
 	$(ROBOT) merge -i tmp/uberon-base.owl -i tmp/cl-base.owl -i tmp/ro.owl -o $@
 
 tmp/materialize-direct.nt: tmp/merged_imports.owl $(SCATLAS_KEEPRELATIONS)
-	$(RG) --ontology-file $< --properties-file $(SCATLAS_KEEPRELATIONS) --output-file $@
+	$(RG) --ontology-file $< --properties-file $(SCATLAS_KEEPRELATIONS) --output-subclasses true --reflexive-subclasses false --output-file $@
+
+tmp/$(ORGAN)-annotations.owl: tmp/merged_imports.owl tmp/$(ORGAN)-seed.txt
+	$(ROBOT) filter --input $< --term-file tmp/$(ORGAN)-seed.txt --select "annotations" --output $@
+.PHONY: tmp/$(ORGAN)-annotations.owl
 
 tmp/$(ORGAN)-term.facts: tmp/$(ORGAN)-seed.txt
 	cp $< $@.tmp.facts
@@ -85,3 +85,4 @@ graph/$(ORGAN)-extended.png: owl/$(ORGAN)-extended.owl ubergraph-style.json
 	dot $<.dot -Tpdf -Grankdir=LR > $@.pdf
 	rm $<.json
 	rm $<.dot
+	
