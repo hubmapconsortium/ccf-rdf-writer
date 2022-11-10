@@ -32,10 +32,7 @@ tmp/cl-base.owl:
 	wget -O $@ http://purl.obolibrary.org/obo/cl/cl-base.owl
 
 tmp/ro.owl: $(SCATLAS_KEEPRELATIONS)
-	wget -O $@.tmp.owl http://purl.obolibrary.org/obo/ro/ro.owl
-	$(ROBOT) reason -i $@.tmp.owl --reasoner ELK \
-	 extract -T $< --force true --copy-ontology-annotations true --individuals include --method BOT \
-	 --output $@_import.tmp.owl && mv $@_import.tmp.owl $@ && rm $@.tmp.owl
+	wget -O $@ http://purl.obolibrary.org/obo/ro/ro.owl
 
 tmp/merged_imports.owl: tmp/uberon-base.owl tmp/cl-base.owl tmp/ro.owl
 	$(ROBOT) merge -i tmp/uberon-base.owl -i tmp/cl-base.owl -i tmp/ro.owl -o $@
