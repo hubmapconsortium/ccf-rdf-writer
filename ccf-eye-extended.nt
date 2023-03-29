@@ -1,42 +1,124 @@
 <http://purl.obolibrary.org/obo/CL_0000740>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/CL_0000740>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal ganglion cell"	.
+<http://purl.obolibrary.org/obo/CL_0000740>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000740>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001783>	<http://www.w3.org/2000/01/rdf-schema#label>	"optic disc"	.
+<http://purl.obolibrary.org/obo/UBERON_0001783>	<http://purl.obolibrary.org/obo/uberon/core#extends_fibers_into>	<http://purl.obolibrary.org/obo/UBERON_0034713>	.
+<http://purl.obolibrary.org/obo/UBERON_0001783>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_4030028>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000561>	.
+<http://purl.obolibrary.org/obo/CL_4030028>	<http://www.w3.org/2000/01/rdf-schema#label>	"glycinergic amacrine cell"	.
+<http://purl.obolibrary.org/obo/CL_4030028>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_4030028>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_4030028>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/UBERON_0006136>	<http://www.w3.org/2000/01/rdf-schema#label>	"unmyelinated nerve fiber"	.
+<http://purl.obolibrary.org/obo/UBERON_0006136>	<http://purl.obolibrary.org/obo/uberon/core#extends_fibers_into>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/CL_0011004>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0011004>	<http://www.w3.org/2000/01/rdf-schema#label>	"lens fiber cell"	.
 <http://purl.obolibrary.org/obo/CL_0011004>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/UBERON_0034713>	<http://www.w3.org/2000/01/rdf-schema#label>	"cranial neuron projection bundle"	.
 <http://purl.obolibrary.org/obo/CL_0000099>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/CL_0000099>	<http://www.w3.org/2000/01/rdf-schema#label>	"interneuron"	.
+<http://purl.obolibrary.org/obo/CL_0000636>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mueller cell"	.
+<http://purl.obolibrary.org/obo/CL_0000636>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0000636>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/UBERON_0001778>	<http://www.w3.org/2000/01/rdf-schema#label>	"ciliary epithelium"	.
 <http://purl.obolibrary.org/obo/UBERON_0001778>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001775>	.
+<http://purl.obolibrary.org/obo/UBERON_0001778>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002228>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0011004>	.
 <http://purl.obolibrary.org/obo/CL_0002228>	<http://www.w3.org/2000/01/rdf-schema#label>	"primary lens fiber"	.
+<http://purl.obolibrary.org/obo/CL_0002228>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/CL_0002228>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/CL_0000066>	.
+<http://purl.obolibrary.org/obo/CL_0002228>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/CL_0002224>	.
 <http://purl.obolibrary.org/obo/CL_0000573>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000287>	.
 <http://purl.obolibrary.org/obo/CL_0000573>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal cone cell"	.
+<http://purl.obolibrary.org/obo/CL_0000573>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000561>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000745>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://www.w3.org/2000/01/rdf-schema#label>	"medium field retinal amacrine cell"	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_0004252>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/CL_0017004>	<http://www.w3.org/2000/01/rdf-schema#label>	"telocyte"	.
+<http://purl.obolibrary.org/obo/UBERON_0001773>	<http://www.w3.org/2000/01/rdf-schema#label>	"sclera"	.
+<http://purl.obolibrary.org/obo/UBERON_0001773>	<http://purl.obolibrary.org/obo/RO_0002131>	<http://purl.obolibrary.org/obo/UBERON_0001773>	.
+<http://purl.obolibrary.org/obo/UBERON_0001773>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/UBERON_0001773>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/CL_0002565>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002565>	<http://www.w3.org/2000/01/rdf-schema#label>	"iris pigment epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_0002565>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002506>	.
 <http://purl.obolibrary.org/obo/UBERON_0001792>	<http://www.w3.org/2000/01/rdf-schema#label>	"ganglionic layer of retina"	.
-<http://purl.obolibrary.org/obo/UBERON_0001792>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001792>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/UBERON_0001792>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001792>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/UBERON_0001792>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/UBERON_0001792>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/UBERON_0004864>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0002203>	.
 <http://purl.obolibrary.org/obo/UBERON_0004864>	<http://www.w3.org/2000/01/rdf-schema#label>	"vasculature of retina"	.
 <http://purl.obolibrary.org/obo/UBERON_0004864>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/UBERON_0001985>	<http://www.w3.org/2000/01/rdf-schema#label>	"corneal endothelium"	.
+<http://purl.obolibrary.org/obo/UBERON_0001985>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
 <http://purl.obolibrary.org/obo/UBERON_0001985>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
+<http://purl.obolibrary.org/obo/UBERON_0001985>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/UBERON_0000964>	<http://www.w3.org/2000/01/rdf-schema#label>	"cornea"	.
+<http://purl.obolibrary.org/obo/UBERON_0000964>	<http://purl.obolibrary.org/obo/RO_0002131>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
+<http://purl.obolibrary.org/obo/UBERON_0000964>	<http://purl.obolibrary.org/obo/RO_0002150>	<http://purl.obolibrary.org/obo/UBERON_0001773>	.
+<http://purl.obolibrary.org/obo/UBERON_0000964>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/UBERON_0001772>	.
 <http://purl.obolibrary.org/obo/UBERON_0000964>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/CL_0011005>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000099>	.
 <http://purl.obolibrary.org/obo/CL_0011005>	<http://www.w3.org/2000/01/rdf-schema#label>	"GABAergic interneuron"	.
 <http://purl.obolibrary.org/obo/CL_0000749>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000748>	.
 <http://purl.obolibrary.org/obo/CL_0000749>	<http://www.w3.org/2000/01/rdf-schema#label>	"ON-bipolar cell"	.
+<http://purl.obolibrary.org/obo/CL_0000749>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000749>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0000749>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/UBERON_0006761>	<http://www.w3.org/2000/01/rdf-schema#label>	"corneo-scleral junction"	.
+<http://purl.obolibrary.org/obo/UBERON_0006761>	<http://purl.obolibrary.org/obo/RO_0002176>	<http://purl.obolibrary.org/obo/UBERON_0001773>	.
+<http://purl.obolibrary.org/obo/UBERON_0006761>	<http://purl.obolibrary.org/obo/RO_0002176>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
+<http://purl.obolibrary.org/obo/UBERON_0006761>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/UBERON_0000482>	<http://www.w3.org/2000/01/rdf-schema#label>	"basal lamina of epithelium"	.
+<http://purl.obolibrary.org/obo/UBERON_0003902>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal neural layer"	.
+<http://purl.obolibrary.org/obo/UBERON_0003902>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/UBERON_0003902>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0003902>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/UBERON_0001791>	<http://www.w3.org/2000/01/rdf-schema#label>	"inner nuclear layer of retina"	.
-<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000099>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000748>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000561>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000745>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001791>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000561>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000745>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://www.w3.org/2000/01/rdf-schema#label>	"starburst amacrine cell"	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0013001>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0013001>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004232>	<http://purl.obolibrary.org/obo/RO_0013001>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/CL_0000287>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/CL_0000287>	<http://www.w3.org/2000/01/rdf-schema#label>	"eye photoreceptor cell"	.
 <http://purl.obolibrary.org/obo/CL_0000287>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/CL_0000129>	<http://www.w3.org/2000/01/rdf-schema#label>	"microglial cell"	.
 <http://purl.obolibrary.org/obo/CL_0000751>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000748>	.
 <http://purl.obolibrary.org/obo/CL_0000751>	<http://www.w3.org/2000/01/rdf-schema#label>	"rod bipolar cell"	.
-<http://purl.obolibrary.org/obo/CL_0000540>	<http://www.w3.org/2000/01/rdf-schema#label>	"neuron"@en	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002103>	<http://purl.obolibrary.org/obo/CL_0000287>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002103>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002103>	<http://purl.obolibrary.org/obo/CL_0000604>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002102>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002102>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000751>	<http://purl.obolibrary.org/obo/RO_0002102>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/CL_0000540>	<http://www.w3.org/2000/01/rdf-schema#label>	"neuron"	.
 <http://purl.obolibrary.org/obo/CL_0002585>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002585>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal blood vessel endothelial cell"	.
@@ -45,58 +127,142 @@
 <http://purl.obolibrary.org/obo/UBERON_0003952>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
 <http://purl.obolibrary.org/obo/CL_0000604>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000287>	.
 <http://purl.obolibrary.org/obo/CL_0000604>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal rod cell"	.
+<http://purl.obolibrary.org/obo/CL_0000604>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/UBERON_0006762>	<http://www.w3.org/2000/01/rdf-schema#label>	"suspensory ligament of lens"	.
+<http://purl.obolibrary.org/obo/UBERON_0006762>	<http://purl.obolibrary.org/obo/RO_0002150>	<http://purl.obolibrary.org/obo/UBERON_0001775>	.
+<http://purl.obolibrary.org/obo/UBERON_0006762>	<http://purl.obolibrary.org/obo/RO_0002150>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
 <http://purl.obolibrary.org/obo/UBERON_0006762>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/CL_0002303>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002303>	<http://www.w3.org/2000/01/rdf-schema#label>	"pigmented ciliary epithelial cell"	.
+<http://purl.obolibrary.org/obo/CL_0002303>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001778>	.
 <http://purl.obolibrary.org/obo/UBERON_0000970>	<http://www.w3.org/2000/01/rdf-schema#label>	"eye"	.
+<http://purl.obolibrary.org/obo/UBERON_0000970>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/UBERON_0001789>	<http://www.w3.org/2000/01/rdf-schema#label>	"outer nuclear layer of retina"	.
-<http://purl.obolibrary.org/obo/UBERON_0001789>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001789>	<http://purl.obolibrary.org/obo/RO_0002131>	<http://purl.obolibrary.org/obo/CL_0000287>	.
+<http://purl.obolibrary.org/obo/UBERON_0001789>	<http://purl.obolibrary.org/obo/RO_0002131>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/UBERON_0001789>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/UBERON_0001789>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001789>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
 <http://purl.obolibrary.org/obo/CL_0002363>	<http://www.w3.org/2000/01/rdf-schema#label>	"keratocyte"	.
 <http://purl.obolibrary.org/obo/CL_0002363>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
 <http://purl.obolibrary.org/obo/CL_0000066>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell"	.
+<http://purl.obolibrary.org/obo/CL_4023188>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_4023188>	<http://www.w3.org/2000/01/rdf-schema#label>	"midget ganglion cell of retina"	.
+<http://purl.obolibrary.org/obo/CL_4023188>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_4023188>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/UBERON_0001772>	<http://www.w3.org/2000/01/rdf-schema#label>	"corneal epithelium"	.
-<http://purl.obolibrary.org/obo/UBERON_0001772>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
+<http://purl.obolibrary.org/obo/UBERON_0001772>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
+<http://purl.obolibrary.org/obo/UBERON_0001772>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
+<http://purl.obolibrary.org/obo/UBERON_0001772>	<http://purl.obolibrary.org/obo/RO_0002007>	<http://purl.obolibrary.org/obo/UBERON_0000964>	.
 <http://purl.obolibrary.org/obo/CL_0000750>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000748>	.
 <http://purl.obolibrary.org/obo/CL_0000750>	<http://www.w3.org/2000/01/rdf-schema#label>	"OFF-bipolar cell"	.
+<http://purl.obolibrary.org/obo/CL_0000750>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000750>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0000750>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/UBERON_0000389>	<http://www.w3.org/2000/01/rdf-schema#label>	"lens cortex"	.
 <http://purl.obolibrary.org/obo/UBERON_0000389>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/UBERON_0000389>	<http://purl.obolibrary.org/obo/RO_0002221>	<http://purl.obolibrary.org/obo/UBERON_0000390>	.
+<http://purl.obolibrary.org/obo/UBERON_0000389>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/UBERON_0001803>	.
 <http://purl.obolibrary.org/obo/UBERON_0000390>	<http://www.w3.org/2000/01/rdf-schema#label>	"lens nucleus"	.
 <http://purl.obolibrary.org/obo/UBERON_0000390>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/UBERON_0000390>	<http://purl.obolibrary.org/obo/RO_0002219>	<http://purl.obolibrary.org/obo/UBERON_0000389>	.
+<http://purl.obolibrary.org/obo/UBERON_0000390>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/UBERON_0001803>	.
 <http://purl.obolibrary.org/obo/UBERON_0001803>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelium of lens"	.
+<http://purl.obolibrary.org/obo/UBERON_0001803>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
 <http://purl.obolibrary.org/obo/UBERON_0001803>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/UBERON_0001803>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0008034>	<http://www.w3.org/2000/01/rdf-schema#label>	"mural cell"@en	.
+<http://purl.obolibrary.org/obo/UBERON_0001811>	<http://www.w3.org/2000/01/rdf-schema#label>	"conjunctiva"	.
+<http://purl.obolibrary.org/obo/UBERON_0001811>	<http://purl.obolibrary.org/obo/RO_0002220>	<http://purl.obolibrary.org/obo/UBERON_0001773>	.
+<http://purl.obolibrary.org/obo/UBERON_0001811>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/UBERON_0002506>	<http://www.w3.org/2000/01/rdf-schema#label>	"iris epithelium"	.
+<http://purl.obolibrary.org/obo/UBERON_0002506>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0001769>	.
 <http://purl.obolibrary.org/obo/UBERON_0002506>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001769>	.
+<http://purl.obolibrary.org/obo/UBERON_0002506>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/UBERON_0002444>	<http://www.w3.org/2000/01/rdf-schema#label>	"lens fiber"	.
+<http://purl.obolibrary.org/obo/UBERON_0002444>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
 <http://purl.obolibrary.org/obo/UBERON_0002444>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/UBERON_0002444>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0011004>	.
+<http://purl.obolibrary.org/obo/UBERON_0002444>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000561>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000745>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://www.w3.org/2000/01/rdf-schema#label>	"A2 amacrine cell"	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0013001>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0013001>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004219>	<http://purl.obolibrary.org/obo/RO_0013001>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0004904>	<http://www.w3.org/2000/01/rdf-schema#label>	"neuron projection bundle connecting eye with brain"	.
 <http://purl.obolibrary.org/obo/CL_0000748>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000099>	.
 <http://purl.obolibrary.org/obo/CL_0000748>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal bipolar neuron"	.
+<http://purl.obolibrary.org/obo/CL_0000748>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000748>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/CL_0000748>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/CL_0000669>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0008034>	.
 <http://purl.obolibrary.org/obo/CL_0000669>	<http://www.w3.org/2000/01/rdf-schema#label>	"pericyte"	.
 <http://purl.obolibrary.org/obo/UBERON_0001775>	<http://www.w3.org/2000/01/rdf-schema#label>	"ciliary body"	.
+<http://purl.obolibrary.org/obo/UBERON_0001775>	<http://purl.obolibrary.org/obo/RO_0002131>	<http://purl.obolibrary.org/obo/UBERON_0001775>	.
+<http://purl.obolibrary.org/obo/UBERON_0001775>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/UBERON_0001605>	.
 <http://purl.obolibrary.org/obo/UBERON_0001775>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/UBERON_0001782>	<http://www.w3.org/2000/01/rdf-schema#label>	"pigmented layer of retina"	.
+<http://purl.obolibrary.org/obo/UBERON_0001782>	<http://purl.obolibrary.org/obo/RO_0002220>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/UBERON_0001782>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/UBERON_0001782>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001782>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002225>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0011004>	.
 <http://purl.obolibrary.org/obo/CL_0002225>	<http://www.w3.org/2000/01/rdf-schema#label>	"secondary lens fiber"	.
-<http://purl.obolibrary.org/obo/CL_0011107>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Muller cell"	.
+<http://purl.obolibrary.org/obo/CL_0002225>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000965>	.
+<http://purl.obolibrary.org/obo/CL_0002225>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/CL_0011004>	.
+<http://purl.obolibrary.org/obo/CL_0002225>	<http://purl.obolibrary.org/obo/RO_0002202>	<http://purl.obolibrary.org/obo/CL_0002228>	.
 <http://purl.obolibrary.org/obo/CL_0000575>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0000575>	<http://www.w3.org/2000/01/rdf-schema#label>	"corneal epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_0000575>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001772>	.
+<http://purl.obolibrary.org/obo/UBERON_0035966>	<http://www.w3.org/2000/01/rdf-schema#label>	"scleral lamina cribrosa"	.
+<http://purl.obolibrary.org/obo/UBERON_0035966>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001773>	.
 <http://purl.obolibrary.org/obo/CL_0000561>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000099>	.
 <http://purl.obolibrary.org/obo/CL_0000561>	<http://www.w3.org/2000/01/rdf-schema#label>	"amacrine cell"	.
 <http://purl.obolibrary.org/obo/CL_0000561>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0000561>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_0000561>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/UBERON_0005336>	<http://www.w3.org/2000/01/rdf-schema#label>	"capillary layer of choroid"	.
+<http://purl.obolibrary.org/obo/UBERON_0005336>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000066>	.
+<http://purl.obolibrary.org/obo/UBERON_0005336>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0002203>	.
 <http://purl.obolibrary.org/obo/UBERON_0005336>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001776>	.
+<http://purl.obolibrary.org/obo/CL_4023189>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_4023189>	<http://www.w3.org/2000/01/rdf-schema#label>	"parasol ganglion cell of retina"	.
+<http://purl.obolibrary.org/obo/CL_4023189>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_4023189>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000561>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000745>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://www.w3.org/2000/01/rdf-schema#label>	"wide field retinal amacrine cell"	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/CL_0004253>	<http://purl.obolibrary.org/obo/RO_0002120>	<http://purl.obolibrary.org/obo/CL_0000540>	.
 <http://purl.obolibrary.org/obo/CL_0002586>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002586>	<http://www.w3.org/2000/01/rdf-schema#label>	"retinal pigment epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_0002586>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001782>	.
+<http://purl.obolibrary.org/obo/UBERON_0002276>	<http://www.w3.org/2000/01/rdf-schema#label>	"lamina of spiral limbus"	.
 <http://purl.obolibrary.org/obo/UBERON_0000966>	<http://www.w3.org/2000/01/rdf-schema#label>	"retina"	.
+<http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/RO_0002131>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000740>	.
+<http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000573>	.
+<http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000287>	.
+<http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/BFO_0000051>	<http://purl.obolibrary.org/obo/CL_0000604>	.
 <http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/UBERON_0000966>	<http://purl.obolibrary.org/obo/RO_0002473>	<http://purl.obolibrary.org/obo/CL_0000540>	.
+<http://purl.obolibrary.org/obo/UBERON_0001605>	<http://www.w3.org/2000/01/rdf-schema#label>	"ciliary muscle"	.
+<http://purl.obolibrary.org/obo/UBERON_0001605>	<http://purl.obolibrary.org/obo/RO_0002433>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/UBERON_0001605>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001775>	.
 <http://purl.obolibrary.org/obo/CL_0002304>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002304>	<http://www.w3.org/2000/01/rdf-schema#label>	"non-pigmented ciliary epithelial cell"	.
+<http://purl.obolibrary.org/obo/CL_0002304>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001778>	.
 <http://purl.obolibrary.org/obo/CL_0002224>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0002224>	<http://www.w3.org/2000/01/rdf-schema#label>	"lens epithelial cell"	.
 <http://purl.obolibrary.org/obo/CL_0002224>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001803>	.
@@ -106,12 +272,17 @@
 <http://purl.obolibrary.org/obo/UBERON_0002203>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/UBERON_0000965>	<http://www.w3.org/2000/01/rdf-schema#label>	"lens of camera-type eye"	.
 <http://purl.obolibrary.org/obo/UBERON_0000965>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/UBERON_0000965>	<http://purl.obolibrary.org/obo/RO_0002256>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
 <http://purl.obolibrary.org/obo/UBERON_0001776>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/UBERON_0002203>	.
 <http://purl.obolibrary.org/obo/UBERON_0001776>	<http://www.w3.org/2000/01/rdf-schema#label>	"optic choroid"	.
+<http://purl.obolibrary.org/obo/UBERON_0001776>	<http://purl.obolibrary.org/obo/RO_0002220>	<http://purl.obolibrary.org/obo/UBERON_0001773>	.
+<http://purl.obolibrary.org/obo/UBERON_0001776>	<http://purl.obolibrary.org/obo/RO_0002220>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/UBERON_0001776>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
 <http://purl.obolibrary.org/obo/CL_0000745>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000099>	.
 <http://purl.obolibrary.org/obo/CL_0000745>	<http://www.w3.org/2000/01/rdf-schema#label>	"retina horizontal cell"	.
-<http://purl.obolibrary.org/obo/CL_0000745>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
+<http://purl.obolibrary.org/obo/CL_0000745>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0003902>	.
+<http://purl.obolibrary.org/obo/CL_0000745>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000970>	.
+<http://purl.obolibrary.org/obo/CL_0000745>	<http://purl.obolibrary.org/obo/RO_0002100>	<http://purl.obolibrary.org/obo/UBERON_0000966>	.
 <http://purl.obolibrary.org/obo/CL_0000132>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/CL_0000066>	.
 <http://purl.obolibrary.org/obo/CL_0000132>	<http://www.w3.org/2000/01/rdf-schema#label>	"corneal endothelial cell"	.
-<http://purl.obolibrary.org/obo/BFO_0000050>	<http://www.w3.org/2000/01/rdf-schema#label>	"part of"@en	.
-<http://purl.obolibrary.org/obo/BFO_0000050>	<http://www.w3.org/2000/01/rdf-schema#label>	"part of"	.
+<http://purl.obolibrary.org/obo/CL_0000132>	<http://purl.obolibrary.org/obo/BFO_0000050>	<http://purl.obolibrary.org/obo/UBERON_0001985>	.

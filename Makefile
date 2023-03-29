@@ -69,15 +69,23 @@ tmp/complete-transitive.ofn: tmp/term.facts tmp/nonredundant.facts tmp/ontrdf.fa
 	sed -e '1s/^/Ontology(<http:\/\/purl.obolibrary.org\/obo\/$(ORGAN)-extended.owl>\n/' -e '$$s/$$/)/' <ofn.csv >$@ && rm ofn.csv
 .PHONY: tmp/complete-transitive.ofn
 
-owl/$(ORGAN)-extended.owl: tmp/complete-transitive.ofn tmp/$(ORGAN)-annotations.owl
-	$(ROBOT) merge --input tmp/$(ORGAN)-annotations.owl --input tmp/complete-transitive.ofn \
-					 remove --term $(SCATLAS_KEEPRELATIONS) --select complement --select object-properties --trim true -o $@
+tmp/all_relations.txt: tmp/relation_seed_extraction.sparql tmp/complete-transitive.ofn tmp/ro.owl
+	$(ROBOT) merge -i tmp/complete-transitive.ofn --input tmp/ro.owl query  --query tmp/relation_seed_extraction.sparql $@.tmp.txt && \
+	cat $(SCATLAS_KEEPRELATIONS) $@.tmp.txt | sort | uniq > $@  && rm $@.tmp.txt
+
+tmp/relation_annotation.owl: tmp/ro.owl tmp/all_relations.txt
+	$(ROBOT) filter --input $< --term-file tmp/all_relations.txt --select "annotations" --output $@
+
+owl/$(ORGAN)-extended.owl: tmp/complete-transitive.ofn tmp/$(ORGAN)-annotations.owl tmp/all_relations.txt tmp/relation_annotation.owl
+	$(ROBOT) merge --input tmp/$(ORGAN)-annotations.owl --input tmp/complete-transitive.ofn --input tmp/relation_annotation.owl \
+					 reduce --reasoner ELK \
+					 remove --term all_relations.txt --select complement --select object-properties --trim true -o $@
 
 .PRECIOUS: owl/$(ORGAN)-extended.owl
 
 graph/$(ORGAN)-extended.png: owl/$(ORGAN)-extended.owl ubergraph-style.json
 	$(ROBOT) convert --input $< --output $<.json
-	og2dot.js -s ubergraph-style.json $<.json > $<.dot 
+	og2dot -s ubergraph-style.json $<.json > $<.dot 
 	dot $<.dot -Tpng -Grankdir=LR > $@
 	dot $<.dot -Tpdf -Grankdir=LR > $@.pdf
 	rm $<.json
